@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlacementPro AI Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2>PlacementPro AI</h2>
+
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="#" onclick="logout()">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="dashboard">
+
+    <h1>Welcome to PlacementPro AI 👋</h1>
+
+    <p>Select a feature to continue your placement preparation.</p>
+
+<div class="top-cards">
+
+    <div class="profile-card">
+        <h3>👤 Welcome</h3>
+        <p><b>Susmitha</b></p>
+        <p>ECE Final Year</p>
+</div>
+
+    <div class="profile-card">
+        <h3>📊 Progress</h3>
+        <p>Quiz Completed</p>
+        <h2 id="progress">0 / 3</h2>
+    </div>
+
+</div>
+    <div class="dashboard-cards">
+
+        <div class="dashboard-card">
+            <h3>📝 Aptitude Quiz</h3>
+            <p>Practice aptitude questions.</p>
+            <button onclick="location.href='coding.html'">Start</button>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>💻 Coding Practice</h3>
+            <p>Practice coding questions.</p>
+            <button onclick="location.href='coding.html'">Open</button>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>📄 Resume Checker</h3>
+            <p>Check your resume.</p>
+            <button onclick="location.href='resume.html'">Open</button>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>🤖 AI Interview</h3>
+            <p>Practice AI interviews.</p>
+            <button onclick="location.href='interview.html'">Open</button>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
